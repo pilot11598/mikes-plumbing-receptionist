@@ -5,6 +5,9 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
+
+dotenv.config();
+
 const app = express();
 app.use(express.urlencoded({ extended: false })); // Twilio posts x-www-form-urlencoded
 
